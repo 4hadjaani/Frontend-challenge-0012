@@ -1,0 +1,50 @@
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  
+  
+body{ justify-content : center ;
+        align-items:center;
+         background-color :  ;
+         display : flex ;
+        width :100%;
+        max-width :375px  ;      
+        height :100vh;
+
+        background-image: url('bg-pattern-top.svg ') , url( 'bg-pattern-bottom.svg') ;
+
+       background-repeat: no-repeat , no-repeat; 
+        background-position : left top  ,right bottom ; 
+    background-size :   100%, 100%;
+    background-color :  #19A1AD; }
+    
+    .wrapper { text-align : center ;
+                       width:100%;
+                       margin:5%;
+               background-color: white;}
+               
+      .victor{ 
+                     width:25%;}
+                     
+                     
+      .victor .card {display: absolute;}
+      
+      
+      tr{ margin: 5%;}
+      
+      td{ text-align: center;
+            padding:5%;}
+            
+            
+            p{ color: hsl(227, 10%, 46%);}
+            strong { color: #535260;}
+            
+            
+  @media only screen and (min-width:600px ){ 
+    body {width:100%;
+            max-width: 1440px;}
+            
+     .victor{ 
+                  width:25%;}
+      
+
+  }
